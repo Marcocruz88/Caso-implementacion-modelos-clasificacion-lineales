@@ -1,0 +1,46 @@
+# =========================
+# macOS
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+
+# =========================
+# Jupyter / Data Science
+# =========================
+.ipynb_checkpoints/
+*.csv
+*.tsv
+*.parquet
+*.xlsx
+
+# =========================
+# Virtual environments
+# =========================
+.ml/
+ml/
+ml/
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# =========================
+# Logs & temp
+# =========================
+*.log
+*.tmp
